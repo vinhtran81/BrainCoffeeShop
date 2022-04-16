@@ -1,4 +1,5 @@
-﻿using BrainCoffeeShop.Models;
+﻿using BrainCoffeeShop.DataAcess.Model;
+using BrainCoffeeShop.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -20,7 +21,7 @@ namespace BrainCoffeeShop.Controllers
 
         public IActionResult Index()
         {
-            string a = "Vinh test Git";
+            var objShop = new CoffeeShop();
             return View();
         }
 
