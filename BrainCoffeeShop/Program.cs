@@ -18,6 +18,11 @@ namespace BrainCoffeeShop
             //Test conflit from local
         }
 
+        public string TestBranch()
+        {
+            return "New Branch";
+        }
+
         public static IHostBuilder CreateHostBuilder(string[] argss) =>
             Host.CreateDefaultBuilder(argss)
                 .ConfigureWebHostDefaults(webBuilder =>
