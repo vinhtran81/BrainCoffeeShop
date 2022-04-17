@@ -14,6 +14,7 @@ namespace BrainCoffeeShop
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            //Test conflit from local
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
