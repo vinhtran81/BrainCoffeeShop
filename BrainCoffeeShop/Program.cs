@@ -13,7 +13,7 @@ namespace BrainCoffeeShop
     {
         public static void Main(string[] args)
         {
-            //Vinh Comment Check Conflit
+            //Vinh Comment Check VinhChang from GitHub Conflit
             CreateHostBuilder(args).Build().Run();
             //Test conflit from local
         }
