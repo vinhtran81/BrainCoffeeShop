@@ -13,11 +13,12 @@ namespace BrainCoffeeShop
     {
         public static void Main(string[] args)
         {
+            //Vinh Comment Check Conflit
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
+        public static IHostBuilder CreateHostBuilder(string[] argss) =>
+            Host.CreateDefaultBuilder(argss)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
